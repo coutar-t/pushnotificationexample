@@ -21,7 +21,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     }
     
     func didReceive(_ notification: UNNotification) {
-        self.label?.text = "Nouveau message : \(notification.request.content.body) with title: \(notification.request.content.title)"
+        self.label?.text = "New article about Notification Content and Notification Service ! 🎉"
     }
 
 }
